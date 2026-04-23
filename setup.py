@@ -58,11 +58,12 @@ setup(
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
-        "Topic :: Scientific/Engineering :: Artificial Intelligence],
-    =[
-        "llm",",
+        "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    ],
+    keywords=[
+        "llm",
         "lora",
-        "transform",
+        "transformers",
         "triton",
     ],
     entry_points={
