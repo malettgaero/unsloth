@@ -33,7 +33,8 @@ setup(
         "trl>=0.7.9",
         "xformers",
         "bitsandbytes",
-        "protobuf<4.0.0",
+        # Relaxed protobuf constraint - protobuf 4.x works fine in my testing
+        "protobuf>=3.20.0",
         "huggingface_hub",
         "hf_transfer",
     ],
